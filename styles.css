@@ -1,0 +1,60 @@
+#top-bar{
+    width: 100%;
+    display: flex;
+    font-size: 10px;
+   
+}
+
+#top-bar div{
+    margin-right: 10px;
+    justify-content: space-between;
+    
+}
+
+header{
+    display: flex;
+    
+}
+
+nav div{
+    margin-right: 10px;
+    justify-content: space-between;
+   
+}
+
+nav{
+    width: 100px;
+    display: flex;
+    font-size: 10px;
+}
+
+main{
+    margin: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 640px 1fr 1fr;
+    grid-template-rows: 335px 335px;
+    ;
+}
+
+    
+
+header{
+    margin: 100x;
+}
+
+main{
+
+    grid-template-areas: 
+    "big story1 story1"
+    "big story3  story4";
+
+}
+
+
+
+#big{
+    grid-area: big;
+    
+    
+}
